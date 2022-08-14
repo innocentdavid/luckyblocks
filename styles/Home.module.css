@@ -85,5 +85,5 @@
 .section2Ball {
   background-color: #E6951D;
   background: radial-gradient(circle, rgba(230, 149, 29,.8) 0%, rgba(230, 149, 29,.8) 93%);
-  box-shadow: 0 0 30px 20px rgba(230, 149, 29,.7) ;
+  box-shadow: 0 0 30px 20px rgba(230, 149, 29,.4) ;
 }

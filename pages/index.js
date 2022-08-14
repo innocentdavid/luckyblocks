@@ -40,7 +40,15 @@ export default function Home() {
       {/* hero end */}
 
       {/* section 2 start */}
-      <div className={`${styles.section2} text-white w-full px-72 pb-10`}>
+      <div className={`${styles.section2} text-white w-full px-72 pb-10 relative`}>
+        <img src="/images/Zasób 6.png" alt="" className="w-[80px] absolute left-[100px] top-[180px]" />
+        <img src="/images/Zasób 10.png" alt="" className="w-[50px] absolute left-[150px] bottom-[380px]" />
+        <img src="/images/Zasób 3.png" alt="" className="w-[80px] absolute right-[120px] bottom-[240px]" />
+        <img src="/images/Zasób 7.png" alt="" className="w-[50px] absolute -right-[20px] bottom-[450px]" />
+        <img src="/images/Zasób 13.png" alt="" className="w-[60px] absolute right-[140px] top-[180px]" />
+        <img src="/images/Zasób 4.png" alt="" className="w-[40px] absolute right-[230px] top-[50px]" />
+        <img src="/images/Zasób 13.png" alt="" className="w-[40px] absolute right-[50px] top-[10px]" />
+
         <div className="tabs mt-[-80px] flex items-center gap-4 px-8 text-[.6rem] font-['Tw Cen MT'] font-bold italic">
           <div className="px-3 py-1 bg-[#000007] rounded-t-lg">BTC</div>
           <div className="px-3 py-1 bg-[#59516D] rounded-t-lg">ETH</div>
@@ -163,6 +171,7 @@ export default function Home() {
       </div>
       {/* section 2 end */}
 
+      {/* section3 */}
       <div className="w-full px-60 font-['Tw Cen MT'] bg-black text-white pt-28 pb-20">
         <h1 className="text-5xl font-bold text-center mb-20"><span className={styles.bgGradient}>WINNING</span> HAS NEVER BEEN <span className={styles.bgGradient}>EASIER</span>.</h1>
 
@@ -251,7 +260,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* section3 */}
 
+      {/* footer */}
       <div className="w-full px-72 font-['Tw Cen MT'] bg-black text-white pt-28 pb-10">
         <h1 className="text-4xl font-bold">POWERED BY:</h1>
 
@@ -273,6 +284,7 @@ export default function Home() {
           <div className="mt-14">COPYRIGHT HASHPOT 2022. ALL RIGHTS RESERVED.</div>
         </div>
       </div>
+      {/* footer */}
     </div>
   )
 }
