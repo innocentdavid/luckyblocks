@@ -41,13 +41,13 @@ export default function Home() {
 
       {/* section 2 start */}
       <div className={`${styles.section2} text-white w-full px-72 pb-10 relative`}>
-        <img src="/images/Zasób 6.png" alt="" className="w-[80px] absolute left-[100px] top-[180px]" />
-        <img src="/images/Zasób 10.png" alt="" className="w-[50px] absolute left-[150px] bottom-[380px]" />
-        <img src="/images/Zasób 3.png" alt="" className="w-[80px] absolute right-[120px] bottom-[240px]" />
-        <img src="/images/Zasób 7.png" alt="" className="w-[50px] absolute -right-[20px] bottom-[450px]" />
-        <img src="/images/Zasób 13.png" alt="" className="w-[60px] absolute right-[140px] top-[180px]" />
-        <img src="/images/Zasób 4.png" alt="" className="w-[40px] absolute right-[230px] top-[50px]" />
-        <img src="/images/Zasób 13.png" alt="" className="w-[40px] absolute right-[50px] top-[10px]" />
+        <img src="/images/Zasób 6.png" alt="" className="w-[80px] absolute left-[100px] top-[17%]" />
+        <img src="/images/Zasób 10.png" alt="" className="w-[50px] absolute left-[150px] bottom-[37%]" />
+        <img src="/images/Zasób 3.png" alt="" className="w-[80px] absolute right-[120px] bottom-[23%]" />
+        <img src="/images/Zasób 7.png" alt="" className="w-[50px] absolute -right-[20px] bottom-[47%]" />
+        <img src="/images/Zasób 13.png" alt="" className="w-[60px] absolute right-[140px] top-[18%]" />
+        <img src="/images/Zasób 4.png" alt="" className="w-[40px] absolute right-[230px] top-[5%]" />
+        <img src="/images/Zasób 13.png" alt="" className="w-[40px] absolute right-[50px] top-[1%]" />
 
         <div className="tabs mt-[-80px] flex items-center gap-4 px-8 text-[.6rem] font-['Tw Cen MT'] font-bold italic">
           <div className="px-3 py-1 bg-[#000007] rounded-t-lg">BTC</div>
