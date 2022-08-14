@@ -13,7 +13,6 @@
   background-repeat: no-repeat;
   background-color: rgb(74, 4, 213);
   background-size: cover;
-  height: 90vh;
 }
 
 .heroTitle {
@@ -46,7 +45,8 @@
 
 @media only screen and (max-width: 800px){
   .hero {
-    padding: 0 4rem
+    padding: 0 4rem;
+    background-size: 500px 100%;
   }
 }
 
@@ -66,7 +66,6 @@
 }
 
 .section2Main {
-  /* font-size: 1rem; */
   background-color: #370086;
   background: radial-gradient(circle, #370086 0%, #000013 93%);
 }
@@ -76,10 +75,6 @@
   background-image: linear-gradient(90deg, #13EBFD, #F00FE8);
   background-clip: text;
   color: transparent;
-}
-
-.tilda {
-  font-size: 2rem;
 }
 
 .section2Ball {

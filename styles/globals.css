@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 ::-webkit-scrollbar{
-  width: 12px;
+  width: 2px;
 }
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(transparent, #13EBFD);
@@ -11,6 +11,12 @@
 }
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(transparent, #F00FE8);
+} 
+
+@media only screen and (min-width: 900px){
+  ::-webkit-scrollbar{
+    width: 12px;
+  }
 }
 
 /* html,
