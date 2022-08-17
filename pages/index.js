@@ -13,14 +13,17 @@ export default function Home() {
 
 
       {/* hero start */}
-      <div className={`${styles.hero} md:h-[90vh]`}>
+      <div className={`${styles.hero} w-full overflow-hidden md:h-[90vh]`}>
         <nav className="flex justify-between items-center text-white mt-5">
           <img src="/images/luckblocks.png" alt="luckyblocks_logo" width="200px" className="logo mt-[-10px]" />
 
-          <div className="nav-items hidden md:flex items-center gap-4 lg-gap-6 font-['Tw Cen MT'] text-xs text-md-sm">
+          <div className="nav-items hidden md:flex items-center lg:gap-7 gap-4 lg-gap-6 font-['Tw Cen MT'] text-xs text-md-sm">
             <div className="">Home</div>
+            <div className="border border-gray-800 h-5"></div>
             <div className="">DEX</div>
+            <div className="border border-gray-800 h-5"></div>
             <div className="">Buy Crypto</div>
+            <div className="border border-gray-800 h-5"></div>
             <div className="">Docs</div>
             <div className="flex items-center gap-2 px-4 py-1 border border-[#2AD5FB] text-[#2AD5FB] rounded-full">
               <img src="/images/link.svg" alt="link" />
@@ -74,7 +77,10 @@ export default function Home() {
             <div className="flex flex-col">
               <div>
                 <small style={{ fontSize: '.6rem' }}>Latest raffle winner</small>
-                <div className="flex items-center justify-center md:justify-start gap-2"><i>S</i><h4>CLARCSON201941</h4></div>
+                <div className="flex items-center justify-center md:justify-start gap-2">
+                  <img src="/images/star.svg" alt="" width="15px" />
+                  <h4 style={{ fontFamily: 'Tw Cen MT, Condensed', letterSpacing: 0 }}>CLARCSON201941</h4>
+                </div>
                 <div></div>
               </div>
 
@@ -91,7 +97,10 @@ export default function Home() {
             <div className="flex flex-col">
               <div>
                 <small style={{ fontSize: '.6rem' }}>Latest raffle winner</small>
-                <div className="flex items-center justify-center md:justify-start gap-2"><i>S</i><h4>CLARCSON201941</h4></div>
+                <div className="flex items-center justify-center md:justify-start gap-2">
+                  <img src="/images/star.svg" alt="" width="15px" />
+                  <h4 style={{ fontFamily: 'Tw Cen MT, Condensed', letterSpacing: 0 }}>CLARCSON201941</h4>
+                </div>
                 <div className="min-h-1"></div>
               </div>
 
@@ -236,29 +245,7 @@ export default function Home() {
                   <div className="text-[#8E90FF] underline">+2MORE</div>
                 </div>
 
-                <div className="w-full mt-4"><hr className="border-1 border-[#ffffff44]" /></div>
-              </div>
-
-              <div>
-                <div className="flex justify-between items-center gap-5 text-xs">
-                  <div className="text-[#8E90FF]">FEB. 20TH 2022 6:40PM</div>
-                  <div className="border rounded-full py-1 px-4 text-xs">DRAW</div>
-                  <div><span className="text-[#8E90FF] mr-3">WINNERS:</span><span>JOHNWICKASS9087, BIGBUNNY2301, PHILIPMORRIS</span></div>
-                  <div className="text-[#8E90FF] underline">+2MORE</div>
-                </div>
-
-                <div className="w-full mt-4"><hr className="border-1 border-[#ffffff44]" /></div>
-              </div>
-
-              <div>
-                <div className="flex justify-between items-center gap-5 text-xs">
-                  <div className="text-[#8E90FF]">FEB. 20TH 2022 6:40PM</div>
-                  <div className="border rounded-full py-1 px-4 text-xs">DRAW</div>
-                  <div><span className="text-[#8E90FF] mr-3">WINNERS:</span><span>JOHNWICKASS9087, BIGBUNNY2301, PHILIPMORRIS</span></div>
-                  <div className="text-[#8E90FF] underline">+2MORE</div>
-                </div>
-
-                <div className="w-full mt-4"><hr className="border-1 border-[#ffffff44]" /></div>
+                {/* <div className="w-full mt-4"><hr className="border-1 border-[#ffffff44]" /></div> */}
               </div>
             </div>
           </div>
